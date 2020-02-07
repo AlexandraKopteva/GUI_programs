@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lasttext.txt</file>
+        <file>info.txt</file>
+    </qresource>
+</RCC>
