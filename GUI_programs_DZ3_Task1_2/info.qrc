@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lasttext.txt</file>
+        <file>icon_1.png</file>
+        <file>icon_2.png</file>
+        <file>icon_3.png</file>
+        <file>icon_5.png</file>
+        <file>icon_6.png</file>
+        <file>icon_7.jpg</file>
+        <file>resources.rc</file>
+    </qresource>
+</RCC>
