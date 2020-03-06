@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>424</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>721</width>
+      <height>371</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>736</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>Открыть </string>
+     </property>
+     <addaction name="action_8"/>
+     <addaction name="action_9"/>
+    </widget>
+    <addaction name="menu_3"/>
+    <addaction name="action_6"/>
+    <addaction name="action_10"/>
+    <addaction name="action_4"/>
+    <addaction name="separator"/>
+    <addaction name="action_5"/>
+    <addaction name="separator"/>
+    <addaction name="action_3"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Правка</string>
+    </property>
+    <addaction name="action_7"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_3">
+   <property name="icon">
+    <iconset>
+     <normaloff>icon_4.jpg</normaloff>icon_4.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Выйти из программы</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="icon">
+    <iconset resource="info.qrc">
+     <normaloff>:/icon_5.png</normaloff>:/icon_5.png</iconset>
+   </property>
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="icon">
+    <iconset resource="info.qrc">
+     <normaloff>:/icon_7.jpg</normaloff>:/icon_7.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить файл</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="icon">
+    <iconset resource="info.qrc">
+     <normaloff>:/icon_6.png</normaloff>:/icon_6.png</iconset>
+   </property>
+   <property name="text">
+    <string>Отменить изменения</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="icon">
+    <iconset resource="info.qrc">
+     <normaloff>:/icon_8.png</normaloff>:/icon_8.png</iconset>
+   </property>
+   <property name="text">
+    <string>Печать</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Открыть файл</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Открыть файл только для чтения</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>Добавить окно</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="info.qrc"/>
+ </resources>
+ <connections/>
+</ui>
