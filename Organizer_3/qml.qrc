@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Tile.qml</file>
+        <file>TableModel.qml</file>
+        <file>TableView.qml</file>
+        <file>Button.qml</file>
+    </qresource>
+</RCC>
